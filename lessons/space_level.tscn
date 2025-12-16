@@ -12,7 +12,6 @@ script = ExtResource("1_dru4e")
 
 [node name="Ship" parent="." instance=ExtResource("2_2j1u5")]
 position = Vector2(946, 546)
-collision_mask = 2
 
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
@@ -21,11 +20,9 @@ visible = false
 
 [node name="Gem" parent="." instance=ExtResource("5_kd2gs")]
 position = Vector2(372, 98)
-collision_layer = 2
 
 [node name="Health pack" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(381, 85)
-collision_layer = 2
+position = Vector2(419, 174)
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
